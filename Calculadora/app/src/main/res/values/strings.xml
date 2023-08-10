@@ -1,0 +1,16 @@
+<resource>
+    <string name="app_name">Calculadora</string>
+
+    <string name="lblTitulo">Mi Calculadora</string>
+
+    <!-- section formulario -->
+    <string name="txtPrimerValor">Primer Valor</string>
+    <string name="txtSegundoValor">Segundo Valor</string>
+    <string name="lblResultado"></string>
+
+    <!-- Section botones -->
+    <string name="btnSumar">Sumar</string>
+    <string name="btnRestar">Restar</string>
+    <string name="btnMultplicar">Multiplicar</string>
+    <string name="btnDividir">Dividir</string>
+</resource>
