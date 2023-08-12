@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Numero Par</string>
+    
+    <string name="lbbTitulo">Numero Par</string>
+    <string name="inpNumero">Digite un numero</string>
+    <string name="btnConsultar">Consultar</string>
+    <string name="lblResultado">...</string>
+</resources>
