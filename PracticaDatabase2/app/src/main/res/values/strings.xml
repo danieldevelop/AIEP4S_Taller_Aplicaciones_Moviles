@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PracticaDatabase</string>
+
+    <string name="lblTitulo">Practica Base de Datos POO.</string>
+
+    <string name="lblCodigo">CODIGO:</string>
+    <string name="txtCodigo">Código del articulo</string>
+
+    <string name="lblNombre">NOMBRE:</string>
+    <string name="txtNombre">Nombre del articulo</string>
+
+    <string name="lblDescripcion">DESCRIPCIÓN:</string>
+    <string name="txtDescripcion">Descripción del articulo</string>
+
+    <string name="btnSaved">Guardar</string>
+    <string name="btnSearch">Buscar</string>
+    <string name="btnUpdate">Actualizar</string>
+    <string name="btnDelete">Eliminar</string>
+</resources>
