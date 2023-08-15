@@ -81,4 +81,32 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+
+    public void buscarRegistro(View v) {
+        articulo.setId(Integer.parseInt(et_id.getText().toString()));
+
+        try {
+            estado = validar.validarCodigo(articulo.getId());
+            if (!estado) {
+                verDato = consulta.encontrarRegistro(principal, articulo.getId());
+
+                if (verDato) {
+                    et_nombre.setText(consulta.fila.getString(0));
+                    et_detalle.setText(consulta.fila.getString(1));
+                    consulta.objDB.close(); 
+                } else {
+                    Toast.makeText(this, "Error, el dato no existe", Toast.LENGTH_LONG).show();
+                    consulta.objDB.close(); 
+                }
+            } else {
+                Toast.makeText(principal, "El campo codigo es obligatorio.", Toast.LENGTH_LONG).show();
+            }
+    
+        } catch (NullPointerException ex) {
+            Log.e("E:BR-01", ex.getMessage());
+        } catch (Exception ex) {
+            Log.e("E:BR-02", ex.getMessage());
+        }
+    }
 }
