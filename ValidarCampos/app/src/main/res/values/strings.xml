@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ValidarCampos</string>
+
+    <string name="txt_Nombre">Nombre</string>
+    <string name="txt_Clave">Contraseña</string>
+    <string name="button">Registrar</string>
+</resources>
